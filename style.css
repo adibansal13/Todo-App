@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comic Relief", system-ui;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+.container div {
+  border: 2px solid rgb(17, 245, 17);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  height: 70vh;
+}
+.container input {
+  padding: 0.4rem;
+  border: none;
+  background-color: rgb(181, 179, 179);
+  margin-block: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+#addBtn {
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(161, 250, 161);
+  cursor: pointer;
+  transition: 0.5s;
+}
+ul {
+  overflow-y: scroll;
+  height: 75%;
+}
+ul > li {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 2px solid rgb(161, 250, 161);
+  margin-block: 1rem;
+  border-radius: 1rem;
+}
+
+ul > li > button {
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: red;
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+ul > li > button:hover {
+  opacity: 0.7;
+}
+#addBtn:hover {
+  box-shadow: 0 0 10px green;
+}
+.fa-regular {
+  color: rgb(161, 250, 161);
+}
+
+.fa-solid {
+  color: rgb(17, 245, 17);
+}
