@@ -82,4 +82,3 @@ function getTodoFromLS() {
   let todoList = JSON.parse(localStorage.getItem("data"));
   return todoList || [];
 }
-console.log("hello");
